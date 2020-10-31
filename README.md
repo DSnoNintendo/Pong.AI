@@ -1,9 +1,5 @@
-# pong-python
-Single player pong game in python using pygame library.
+# PONG.AI
 
-Use left and right arrow keys to move the paddle. 
-
-
-~~Be gentle! 
-Dont press both keys simultaneously or the paddle gets stuck for a second.~~ fixed 
-
+Original single player pong algorithm forked from from https://github.com/skar91/pong-python
+-Recoded program using Object-oriented programming to make things easier for AI
+-Fixed movement glitch
