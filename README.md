@@ -23,7 +23,7 @@ Changes I made to forked code:
 
 ⋅⋅* ***Ball.speed*** and ***Paddle.speed*** (main.py) - Self explanatory. Default speed is set to 6 for the paddle and 5 for the ball. You can set speeds like so:
 ```python
-Paddle(100, 20, 400, 580, color=color, speed=x)
+Paddle(100, 20, SCREEN_WIDTH/2, SCREEN_HEIGHT, color=color, speed=x)
 Ball(15, random.randrange(5, SCREEN_WIDTH - 10, 5), color=color, speed=x)
 ```
 ⋅⋅* ***GAME_SPEED** (main.py) - Default setting is 6. Raising this will make AI work faster
