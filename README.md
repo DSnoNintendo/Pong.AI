@@ -3,10 +3,10 @@
 NOTE: Original single player pong game forked from https://github.com/skar91/pong-python. I found this particular repo while searching for games to implement AI for <br />
 
 Changes I made to forked code:
-- Recoded program and used object-oriented programming. Necessary for a big project like this where there are many moving parts <br />
-- Original game could only be controlled by human input from keyboard. Changed so AI can play <br />
+- Recoded from ground up. Implemented object-oriented programming. Necessary for a big project like this where there are many moving parts <br />
+- Original game could only be controlled by human input from keyboard. Changed so AI can play. Also, for AI to learn quickly there needs to be multiple instances of pong games running at the same time, so I had to implement that.  <br />
 - Removed hardcoding <br />
-- Fixed movement glitch <br />
+- Fixed movement glitch and added some extra features <br />
 
 ## How to use:
 1. Navigate to directory in terminal
