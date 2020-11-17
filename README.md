@@ -14,7 +14,7 @@ Changes I made to forked code:
 3. ``` python3 main.py ```
 4. Watch as AI learns how to play Pong. I programmed the AI to run 1000 iterations of pong for each generation of genomes, so as currently constructed, AI should master the game by the second generation or sooner
 
-## Settings to mess around width:
+## Settings to mess around with:
 ⋅⋅* ***pop_size*** (AI/config-feedforward.txt) - This controls how many genomes will play pong for each generation. The lower the number is, the longer it will take for AI to learn
 
 ⋅⋅* ***fitness_threshold*** (AI/config-feedforward.txt) - This controls what score a genome will have to reach in order to reach maximum fitness. Fitness scores are controlled in main.py and I seem to have found the sweet spot to make the AI learn as efficiently as possible
