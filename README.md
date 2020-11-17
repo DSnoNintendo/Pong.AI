@@ -6,7 +6,7 @@ Changes I made to forked code:
 - Recoded from ground up. Implemented object-oriented programming. Necessary for a big project like this where there are many moving parts <br />
 - Original game could only be controlled by human input from keyboard. Changed so AI can play. Also, for AI to learn quickly there needs to be multiple instances of pong games running at the same time, so I had to implement that.  <br />
 - Removed hardcoding <br />
-- Fixed movement glitch and added some extra features <br />
+- Fixed movement glitch and added some extra features like paddle/ball colors, etc. <br />
 
 ## How to use:
 1. Navigate to directory in terminal
